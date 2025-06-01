@@ -5,17 +5,22 @@ This repository contains end-to-end (E2E) tests for a web application using [Pla
 ## Project Structure
 
 ```
-Task_1/
+Task_Nino_Londaridze_AQA/
+├── features
+    ├── register.feature
 ├── .gitignore
 ├── package.json
 ├── playwright.config.ts
 ├── Readme.md
+├── TEST_STRATEGY.md
 ├── playwright-report/
 │   ├── index.html
 │   └── test-results/
 │       └── .last-run.json
 └── tests/
-    └── e2e-checkout.spec.js
+    └── step_definitions
+        └── register.steps.js
+    └── e2e-checkout.spec.js 
 ```
 
 - **playwright.config.ts**: Playwright configuration file.
